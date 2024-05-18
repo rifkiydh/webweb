@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: comic sansms;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+    color: blueviolet;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    line-height: 80px;
+    margin: auto;
+    top: 0;
+    background-color: #ffffff;
+    display: flex;
+    z-index: 1;
+    border-bottom: 1px solid;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: black;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.tmbl-biru {
+    background-color: blue;
+    border-radius: 30px;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-weight: bold
+}
+
+.tmbl-biru:hover {
+    text-decoration: none;
+    background-color: fuchsia;
+}
+
+.tmbl-pink {
+    background-color: fuchsia;
+    border-radius: 30px;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-weight: bold
+}
+
+.tmbl-pink:hover {
+    background-color: blue;
+}
+
+p {
+    padding: 15px 0px;
+    margin: 15px 0px;
+}
+
+.tengah {
+    text-align: center;
+    margin: auto;
+}
+
+
+.list-kartu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.kartu-tutors {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutors img {
+    width: 80%;
+    border-radius: 80px;
+}
+
+
+.list-partners {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partners {
+    margin: auto;
+    width: 20%;
+}
+
+.kartu-partners img {
+    width: 70%;
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-family: comic sans ms;
+    font-size: 25px;
+    color: #8A2BE2;
+    margin-bottom: 20px;
+
+}
+
+@media screen and (max-width:991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul  {
+        text-align: center;
+        margin: auto;
+        line-height: 80px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kwrtu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
